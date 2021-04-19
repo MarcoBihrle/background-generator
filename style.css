@@ -1,11 +1,12 @@
 body {
-	font: 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0, 0.5);
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .5em;
+    letter-spacing: 0.5em;
     top: 15%;
-	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+	background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 255, 0, 1));
+  
 }
 
 h1 {
@@ -24,4 +25,17 @@ h3 {
     text-transform: none;
     letter-spacing: 0.01em;
 
+}
+
+input {
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    border: none;
+    height:40px;
+    background: transparent
+}
+
+input:hover {
+    cursor: pointer;
 }
